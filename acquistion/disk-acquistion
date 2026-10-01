@@ -1,0 +1,31 @@
+# Disk Acquisition
+## i. Purpose
+
+The purpose of this stage was to acquire a forensic copy of the Windows 10 victim disk for further investigation.
+
+## ii. Tool Used
+
+i. FTK Imager  
+ii. Windows 10 victim machine  
+iii. External storage
+
+## iii. Acquisition Process
+
+I used FTK Imager to acquire the disk from the Windows 10 victim machine.
+
+The image was created in **E01 format** and saved to external storage. I worked with the acquired image during the investigation instead of directly analyzing the original disk.
+
+## iv. Evidence Information
+
+i. Case ID: CASE-001  
+ii. Evidence: Windows 10 victim disk  
+iii. Image format: E01  
+iv. Acquisition tool: FTK Imager
+
+## v. Integrity
+
+After the acquisition, I generated a hash for the evidence and recorded it for integrity verification.
+
+## vi. Result
+
+The disk image was successfully acquired and preserved for the next stages of the investigation, including artifact collection and analysis.
