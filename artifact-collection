@@ -1,0 +1,26 @@
+# Artifact Collection
+## i. Purpose
+After acquiring the evidence, I moved to collecting relevant Windows artifacts for the investigation.
+
+## ii. Tool Used
+i. KAPE
+ii. Windows forensic image/evidence
+iii. KAPE output directory
+
+## iii. Collection
+I used KAPE to collect relevant Windows artifacts from the acquired evidence.
+The collected artifacts included registry hives, event logs, Prefetch and other Windows artifacts that could help with reconstructing the activity on the system.
+
+## iv. Artifacts Collected
+i. SAM
+ii. SOFTWARE
+iii. NTUSER.dat
+iv. ShellBags
+v. Prefetch
+vi. Windows Event Logs
+
+## v. Output
+The collected artifacts were saved in the KAPE output directory and were later used for Registry, event log and other forensic analysis.
+
+## vi. Next Step
+The collected artifacts were examined to identify user activity, persistence and other evidence related to the incident.
